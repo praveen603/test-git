@@ -22,11 +22,5 @@ pipeline {
                 echo 'Deploying....'
             }
         }
-        stage('staging') {
-            steps {
-                echo 'Deploying....'
-            }
-        }
-        }
     }
 }
